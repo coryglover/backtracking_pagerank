@@ -10,7 +10,11 @@ It also generates plots as seen in Figure 1.
 
 There are additionally two jupyter notebooks.
 The first performs analysis on comparing distributions of PageRank values and the second applies infinite-PageRank clustering to generate stochastic block model networks.
+Additionally there is a python script to generate figures found in Figure 1.
 
+## Investigating Convergence of PageRank With Respect to Backtracking
+The python script monotonicity_check.py generates RGG graphs and GNP grphs and checks that PageRank variants converge as backtracking increases.
+It additionally generates plots as seen in Figure 1.
 
 ## Comparing Distributions
 This notebook generates a GNP and HSCM graph, each with 10^4 nodes.
